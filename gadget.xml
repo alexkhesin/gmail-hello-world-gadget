@@ -24,7 +24,7 @@
      in the manifest, but is still expected to be present. -->
     <Require feature="google.contentmatch">
       <Param name="extractors">
-        google.com:HelloWorld
+        khesin.com:HelloWorld
       </Param>
     </Require>
 
@@ -35,7 +35,7 @@
   <Content type="html" view="card">
     <![CDATA[
       <!-- Start with Single Sign-On -->
-      <script type="text/javascript" src="https://example.com/gadgets/sso.js"></script>
+      <!--<script type="text/javascript" src="https://example.com/gadgets/sso.js"></script>-->
       <script type="text/javascript">
 
         <!-- Fetch the array of content matches. -->
